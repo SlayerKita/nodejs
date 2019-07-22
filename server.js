@@ -1099,5 +1099,5 @@ var Utils;
 // process.env.PORT
 // process.env.IP
 // RED HAT OPEN SHIFT CONFIGURATION
-var myserver = new Chat.ChatServer(process.env.OPENSHIFT_NODEJS_PORT, false, "andrerico.outsystemscloud.com", process.env.OPENSHIFT_NODEJS_IP, false, "outsystems", "aspx");
+var myserver = new Chat.ChatServer(process.env.PORT, false, "andrerico.outsystemscloud.com", process.env.IP, false, "outsystems", "aspx");
 //# sourceMappingURL=server.js.map
